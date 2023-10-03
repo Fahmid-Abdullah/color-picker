@@ -40,18 +40,18 @@ span{
 }
 
 #colorBox {
-    background-color: #000000;
-    top:-5px;
-    width: 200px;
+	background-color: #000000;
+	top:-5px;
+	width: 200px;
 }
 
 #cpy {
-    color: #000000;
-    font-size: 15px;
-    font-weight: 1000;
+	color: #000000;
+	font-size: 15px;
+	font-weight: 1000;
 
-    position: absolute;
-    transform: translate(-50%,-50%);
+	position: absolute;
+	transform: translate(-50%,-50%);
     top: 67%;
     left: 61%;
     width: 600px;
