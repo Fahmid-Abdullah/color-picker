@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RGB Color Picker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+	<div class="container" id="mainBox">
+		<div class="container" id="colorBox">⠀</div>
+		<div class="wrapper">
+			Red⠀ <input type="range" min="0" max="255" value="0" id="red" oninput="color()">
+		</div>
+		<div class="wrapper">
+			Green<input type="range" min="0" max="255" value="0" id="green" oninput="color()">
+		</div>
+		<div class="wrapper">
+			Blue⠀<input type="range" min="0" max="255" value="0" id="blue" oninput="color()">
+		</div>
+		<span id="output">rgb(0, 0, 0)</span>
+		<span id="outputHex">#000000</span>
+	</div>
+	<div id="cpy">*Hex is auto-copied to clipboard.</div>
+	<script src="script.js"></script>
+</body>
+</html>
